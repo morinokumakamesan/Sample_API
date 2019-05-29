@@ -1,7 +1,12 @@
 User.create!(
-	{
-		name: 'hoge',
-		age: '22',
-		email: 'huga@huga'
-	}
+	[
+		{
+			name: 'hoge',
+			age: '22',
+		},
+		{
+			name: 'huga',
+			age: '50',
+		}
+	]
 )
